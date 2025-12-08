@@ -5,6 +5,7 @@
         _Color("Square Color", Color) = (1.0,1.0,0,1.0)
         _Size("Size", Float) = 0.3
         _Anchor("Anchor", Vector) = (0.0, 0.0, 0.5, 0.5)
+        _TileCount("TileCount", Int) = 6
     }
     SubShader
     {
@@ -15,7 +16,7 @@
         {
             CGPROGRAM
 // Upgrade NOTE: excluded shader from DX11; has structs without semantics (struct v2f members position)
-#pragma exclude_renderers d3d11
+// #pragma exclude_renderers d3d11
             #pragma vertex vert
             #pragma fragment frag
 
@@ -40,6 +41,7 @@
             fixed4 _Color;
             float _Size;
             float4 _Anchor;
+            float _TileCount;
             
             float rect(float2 pt, float2 size, float2 center){
                 //return 0 if not in rect and 1 if it is
@@ -74,7 +76,7 @@
             fixed4 frag (v2f i) : SV_Target
             {
                 float2 center = _Anchor.zw;
-                float2 pos = i.uv;
+                float2 pos = frac(i.uv * _TileCount);
                 float2x2 matr = getRotationMatrix(_Time.y);
                 float2x2 mats = getScaleMatrix((sin(_Time.y) + 1)/3 + 0.5);
                 float2x2 mat = mul(matr, mats);
