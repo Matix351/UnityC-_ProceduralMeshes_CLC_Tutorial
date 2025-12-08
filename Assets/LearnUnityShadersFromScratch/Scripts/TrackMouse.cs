@@ -22,7 +22,13 @@ public class TrackMouse : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        RaycastHit hit;
+        Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+        if(Physics.Raycast(ray, out hit))
+        {
+            mouse.x = hit.textureCoord.x;
+            mouse.y= hit.textureCoord.y;
+        }
         material.SetVector("_Mouse", mouse);
     }
 }

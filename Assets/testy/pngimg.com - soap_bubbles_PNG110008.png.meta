@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 0a5474cd821318847aad05efc3059092
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8793559691480824708
+    second: pngimg.com - soap_bubbles_PNG110008_0
+  - first:
+      213: 4752345097967175988
+    second: pngimg.com - soap_bubbles_PNG110008_1
+  - first:
+      213: 1066062011433904729
+    second: pngimg.com - soap_bubbles_PNG110008_2
+  - first:
+      213: -3908620052302135015
+    second: pngimg.com - soap_bubbles_PNG110008_3
+  - first:
+      213: 9202225466941157035
+    second: pngimg.com - soap_bubbles_PNG110008_4
+  - first:
+      213: -3797110787024902256
+    second: pngimg.com - soap_bubbles_PNG110008_5
+  - first:
+      213: -3399035102755284381
+    second: pngimg.com - soap_bubbles_PNG110008_6
+  - first:
+      213: -8652618465966317866
+    second: pngimg.com - soap_bubbles_PNG110008_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngimg.com - soap_bubbles_PNG110008_0
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 5472
+        width: 663
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b78e9f2fff80a70800000000000000
+      internalID: 8793559691480824708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngimg.com - soap_bubbles_PNG110008_1
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 4973
+        width: 3098
+        height: 2970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439076600b8b3f140800000000000000
+      internalID: 4752345097967175988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngimg.com - soap_bubbles_PNG110008_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3842
+        width: 1175
+        height: 1127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a6e0c40c96bce00800000000000000
+      internalID: 1066062011433904729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngimg.com - soap_bubbles_PNG110008_3
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 1048
+        width: 2664
+        height: 3249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911009c65cac1c9c0800000000000000
+      internalID: -3908620052302135015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngimg.com - soap_bubbles_PNG110008_4
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 3915
+        width: 663
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baea4148e4fd4bf70800000000000000
+      internalID: 9202225466941157035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngimg.com - soap_bubbles_PNG110008_5
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1735
+        width: 1175
+        height: 1127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097a39e6bd3fd4bc0800000000000000
+      internalID: -3797110787024902256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngimg.com - soap_bubbles_PNG110008_6
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 213
+        width: 814
+        height: 780
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a1039359334d0d0800000000000000
+      internalID: -3399035102755284381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngimg.com - soap_bubbles_PNG110008_7
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 50
+        width: 438
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de97174959bbe780800000000000000
+      internalID: -8652618465966317866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pngimg.com - soap_bubbles_PNG110008_0: 8793559691480824708
+      pngimg.com - soap_bubbles_PNG110008_1: 4752345097967175988
+      pngimg.com - soap_bubbles_PNG110008_2: 1066062011433904729
+      pngimg.com - soap_bubbles_PNG110008_3: -3908620052302135015
+      pngimg.com - soap_bubbles_PNG110008_4: 9202225466941157035
+      pngimg.com - soap_bubbles_PNG110008_5: -3797110787024902256
+      pngimg.com - soap_bubbles_PNG110008_6: -3399035102755284381
+      pngimg.com - soap_bubbles_PNG110008_7: -8652618465966317866
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
