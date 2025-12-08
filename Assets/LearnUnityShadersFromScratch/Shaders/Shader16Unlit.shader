@@ -14,7 +14,7 @@
         {
             CGPROGRAM
 // Upgrade NOTE: excluded shader from DX11; has structs without semantics (struct v2f members position)
-#pragma exclude_renderers d3d11
+// #pragma exclude_renderers d3d11
             #pragma vertex vert
             #pragma fragment frag
 
@@ -37,6 +37,14 @@
                 o.screenPos = ComputeScreenPos(o.vertex);
                 return o;
             }
+
+            float onLine( float a, float b, float line_width, float edge_thicnkess)
+            {
+                float half_line_width = line_width * 0.5;
+                return smoothstep(a - half_line_width - edge_thicnkess, a - half_line_width, b)
+                     - smoothstep(a + half_line_width, a + half_line_width + edge_thicnkess, b);
+
+            }
            
             fixed4 _Color;
             float _LineWidth;
@@ -45,11 +53,14 @@
             	return (sin(x) + 1.0)/2.0;
             }
             
+
             fixed4 frag (v2f i) : SV_Target
             {
-            	float pos = i.position.xy * 2;
-            	
-                fixed3 color = _Color; 
+            	// float pos = i.position.xy * 2;
+            	float2 uv = i.screenPos.xy / i.screenPos.w;
+
+                fixed3 color = lerp(fixed3(0,0,0) , _Color.rgb,
+                               onLine(uv.x, uv.y, _LineWidth, _LineWidth * 0.1) );
                 
                 return fixed4(color, 1.0);
             }

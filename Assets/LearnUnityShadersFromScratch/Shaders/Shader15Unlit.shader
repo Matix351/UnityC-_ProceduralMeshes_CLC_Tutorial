@@ -15,7 +15,7 @@
         {
             CGPROGRAM
 // Upgrade NOTE: excluded shader from DX11; has structs without semantics (struct v2f members position)
-#pragma exclude_renderers d3d11
+// #pragma exclude_renderers d3d11
             #pragma vertex vert
             #pragma fragment frag
 
@@ -36,6 +36,8 @@
                 o.uv = v.texcoord;
                 return o;
             }
+
+
            
             fixed4 _Color;
             float _Radius;
