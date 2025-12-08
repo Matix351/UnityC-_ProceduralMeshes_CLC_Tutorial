@@ -56,8 +56,8 @@
                 //step(edge, x) 0.0 is returned if x < edge, and 1.0 is returned otherwise.
                 float2 p = pt - center;
                 float2 halfsize = size/2.0;
-                float horz = step(-halfsize.x, p.x) - step(halfsize.x, p.x);
-                float vert = step(-halfsize.y, p.y) - step(halfsize.y, p.y);
+                float horz = step(-halfsize.x - anchor.x, p.x) - step(halfsize.x - anchor.x, p.x);
+                float vert = step(-halfsize.y - anchor.y , p.y) - step(halfsize.y - anchor.y, p.y);
                 return horz*vert;
             }
 
@@ -80,7 +80,7 @@
                 // float2 pt = mul(mat, pos );
 
                   
-                float3 color = _Color * rect(pt, size, center);
+                float3 color = _Color * rect(pt, _Anchor.xy, size, center);
                 
                 return fixed4(color, 1.0);
             }
