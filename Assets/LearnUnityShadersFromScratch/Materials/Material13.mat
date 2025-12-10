@@ -73,16 +73,16 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Radius: 0.5
-    - _Size: 0.3
+    - _Size: 0.4
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _TileCount: 3
+    - _TileCount: 127.02
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Anchor: {r: 0, g: 0, b: 0.5, a: 0.5}
-    - _Color: {r: 0.9150943, g: 0.09927912, b: 0.2970488, a: 1}
+    - _Anchor: {r: 0.1, g: 0.4, b: 0.5, a: 0.5}
+    - _Color: {r: 0.09803919, g: 0.8826531, b: 0.9137255, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Mouse: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
