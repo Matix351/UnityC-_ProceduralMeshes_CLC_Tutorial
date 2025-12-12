@@ -63,6 +63,7 @@
                 // fixed3 color = lerp(fixed3(0,0,0) , _Color.rgb,
                                // onLine(uv.x, uv.y, _LineWidth, _LineWidth * 0.1) );
                 // fixed3 color = _Color * onLine (pos.y, sin(pos.x * UNITY_PI),0.05, 0.002);
+                // fixed3 color = _Color * onLine (pos.y, lerp(-0.4, 0.4, getDelta(pos.x * UNITY_PI)),0.05, 0.002);
                 fixed3 color = _Color * onLine (pos.y, lerp(-0.4, 0.4, getDelta(pos.x * UNITY_PI)),0.05, 0.002);
                 
                 return fixed4(color, 1.0);
